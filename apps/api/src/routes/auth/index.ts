@@ -7,7 +7,7 @@ const logger = createLogger("api:auth");
 const auth = createAuth({
   databaseUrl: process.env.DATABASE_URL!,
   secret: process.env.BETTER_AUTH_SECRET || process.env.NEXTAUTH_SECRET!,
-  baseURL: process.env.API_URL || "http://localhost:8787",
+  baseURL: `${process.env.API_URL || "http://localhost:8787"}/api/auth`,
   google:
     process.env.GOOGLE_CLIENT_ID && process.env.GOOGLE_CLIENT_SECRET
       ? { clientId: process.env.GOOGLE_CLIENT_ID, clientSecret: process.env.GOOGLE_CLIENT_SECRET }
