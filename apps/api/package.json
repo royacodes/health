@@ -1,0 +1,34 @@
+{
+  "name": "@healthy/api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "wrangler deploy --dry-run --outdir=dist",
+    "deploy": "wrangler deploy",
+    "lint": "biome check .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@healthy/auth": "workspace:*",
+    "@healthy/config": "workspace:*",
+    "@healthy/database": "workspace:*",
+    "@healthy/food": "workspace:*",
+    "@healthy/recipe": "workspace:*",
+    "@healthy/types": "workspace:*",
+    "@healthy/utils": "workspace:*",
+    "better-auth": "^1.6.23",
+    "drizzle-orm": "^0.45.2",
+    "hono": "^4.6.14",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250109.0",
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8",
+    "wrangler": "^3.103.2"
+  }
+}

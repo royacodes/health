@@ -1,0 +1,16 @@
+name = "healthy-platform-api"
+main = "src/index.ts"
+compatibility_date = "2025-01-09"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+ENVIRONMENT = "development"
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = "placeholder-id"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "healthy-platform-db"
+database_id = "placeholder-id"

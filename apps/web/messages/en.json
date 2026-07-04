@@ -1,0 +1,243 @@
+{
+  "common": {
+    "appName": "Healthy Recipe Platform",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "noResults": "No results found",
+    "retry": "Retry",
+    "close": "Close",
+    "open": "Open",
+    "more": "More",
+    "less": "Less",
+    "required": "Required",
+    "optional": "Optional",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "done": "Done",
+    "learnMore": "Learn more"
+  },
+  "nav": {
+    "home": "Home",
+    "recipes": "Recipes",
+    "categories": "Categories",
+    "favorites": "Favorites",
+    "profile": "Profile",
+    "settings": "Settings",
+    "login": "Log in",
+    "logout": "Log out",
+    "register": "Sign up"
+  },
+  "home": {
+    "title": "Healthy Recipe Platform",
+    "subtitle": "Discover and share healthy recipes for a better lifestyle.",
+    "getStarted": "Get Started",
+    "featured": "Featured Recipes",
+    "popular": "Popular Recipes",
+    "recent": "Recent Recipes"
+  },
+  "recipes": {
+    "title": "Recipes",
+    "subtitle": "Browse our collection of healthy recipes",
+    "details": "Recipe Details",
+    "servings": "Servings",
+    "prepTime": "Prep Time",
+    "cookTime": "Cook Time",
+    "totalTime": "Total Time",
+    "ingredients": "Ingredients",
+    "instructions": "Instructions",
+    "nutrition": "Nutrition",
+    "calories": "Calories",
+    "protein": "Protein",
+    "carbs": "Carbs",
+    "fat": "Fat",
+    "fiber": "Fiber",
+    "perServing": "per serving",
+    "addToFavorites": "Add to Favorites",
+    "removeFromFavorites": "Remove from Favorites",
+    "share": "Share Recipe",
+    "print": "Print Recipe",
+    "rate": "Rate Recipe",
+    "reviews": "Reviews",
+    "writeReview": "Write a Review",
+    "noRecipes": "No recipes found"
+  },
+  "categories": {
+    "title": "Categories",
+    "subtitle": "Browse recipes by category",
+    "all": "All Categories",
+    "breakfast": "Breakfast",
+    "lunch": "Lunch",
+    "dinner": "Dinner",
+    "snacks": "Snacks",
+    "desserts": "Desserts",
+    "drinks": "Drinks",
+    "vegetarian": "Vegetarian",
+    "vegan": "Vegan",
+    "glutenFree": "Gluten Free",
+    "keto": "Keto",
+    "paleo": "Paleo"
+  },
+  "profile": {
+    "title": "Profile",
+    "myProfile": "My Profile",
+    "editProfile": "Edit Profile",
+    "myRecipes": "My Recipes",
+    "myFavorites": "My Favorites",
+    "myReviews": "My Reviews",
+    "stats": "Statistics",
+    "joinedDate": "Joined {{date}}",
+    "followers": "Followers",
+    "following": "Following"
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": "Appearance",
+    "language": "Language",
+    "notifications": "Notifications",
+    "privacy": "Privacy",
+    "about": "About",
+    "theme": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeSystem": "System",
+    "units": "Units",
+    "unitsMetric": "Metric",
+    "unitsImperial": "Imperial"
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Log in to your account",
+      "email": "Email",
+      "password": "Password",
+      "forgotPassword": "Forgot password?",
+      "submit": "Log in",
+      "loading": "Logging in...",
+      "error": "Invalid email or password",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Join our community",
+      "name": "Full Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Sign up",
+      "loading": "Creating account...",
+      "error": "Could not create account",
+      "passwordMismatch": "Passwords do not match",
+      "hasAccount": "Already have an account?",
+      "login": "Log in"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "subtitle": "Enter your email to receive a reset link",
+      "email": "Email",
+      "submit": "Send Reset Link",
+      "loading": "Sending...",
+      "error": "Could not send reset link",
+      "sent": "Check your email for the reset link",
+      "backToLogin": "Back to login"
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "subtitle": "Enter your new password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Reset Password",
+      "loading": "Resetting...",
+      "error": "Could not reset password",
+      "success": "Password reset successfully",
+      "passwordMismatch": "Passwords do not match",
+      "invalidToken": "Invalid or expired reset token",
+      "requestNewLink": "Request a new reset link",
+      "goToLogin": "Go to login"
+    },
+    "verifyEmail": {
+      "title": "Verify Email",
+      "subtitle": "Click the button below to verify your email",
+      "verify": "Verify Email",
+      "loading": "Verifying...",
+      "error": "Could not verify email",
+      "success": "Email verified successfully",
+      "noToken": "No verification token provided",
+      "goToLogin": "Go to login"
+    },
+    "onboarding": {
+      "title": "Let's get started",
+      "subtitle": "Tell us about yourself to personalize your experience",
+      "step1": "Language",
+      "step2": "Profile",
+      "step3": "Goal",
+      "step4": "Diet",
+      "step5": "Allergies",
+      "step6": "Preferences",
+      "next": "Next",
+      "previous": "Back",
+      "skip": "Skip",
+      "finish": "Get Started",
+      "gender": "Gender",
+      "birthDate": "Date of Birth",
+      "height": "Height (cm)",
+      "weight": "Weight (kg)",
+      "activityLevel": "Activity Level",
+      "goal": "What's your goal?",
+      "dietType": "Diet Type",
+      "allergies": "Any allergies?",
+      "dislikedIngredients": "Disliked ingredients",
+      "measurementSystem": "Measurement System",
+      "notifications": "Notification Preferences"
+    },
+    "sessions": {
+      "title": "Active Sessions",
+      "currentSession": "Current Session",
+      "revoke": "Revoke",
+      "revokeAll": "Revoke All Others",
+      "lastActive": "Last active {{date}}",
+      "noSessions": "No other active sessions"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Page Not Found",
+      "description": "The page you are looking for does not exist or has been moved.",
+      "backHome": "Back to Home"
+    },
+    "server": {
+      "title": "Something went wrong",
+      "description": "We are experiencing technical difficulties. Please try again later.",
+      "retry": "Try Again"
+    },
+    "network": {
+      "title": "Network Error",
+      "description": "Please check your internet connection and try again."
+    },
+    "unauthorized": {
+      "title": "Access Denied",
+      "description": "You do not have permission to access this page."
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "Healthy Recipe Platform - Discover Healthy Recipes",
+      "description": "Discover and share healthy recipes for a better lifestyle. Browse thousands of nutritious recipes."
+    },
+    "recipes": {
+      "title": "Recipes - Healthy Recipe Platform",
+      "description": "Browse our collection of healthy and delicious recipes."
+    }
+  }
+}

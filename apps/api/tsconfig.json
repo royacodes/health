@@ -1,0 +1,23 @@
+{
+  "extends": "../../tooling/typescript/node.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": ["@cloudflare/workers-types"],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@healthy/auth": ["../../packages/auth/src"],
+      "@healthy/auth/*": ["../../packages/auth/src/*"],
+      "@healthy/database": ["../../packages/database/src"],
+      "@healthy/database/*": ["../../packages/database/src/*"],
+      "@healthy/types": ["../../packages/types/src"],
+      "@healthy/utils": ["../../packages/utils/src"],
+      "@healthy/config": ["../../packages/config/src"],
+      "@healthy/food": ["../../packages/food/src"],
+      "@healthy/food/*": ["../../packages/food/src/*"],
+      "@healthy/recipe": ["../../packages/recipe/src"],
+      "@healthy/recipe/*": ["../../packages/recipe/src/*"]
+    }
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* UI Package — shared component styles */
+/* The app's globals.css provides the full design token system.
+   This file only adds component-specific styles. */
+
+@keyframes shimmer {
+  from { background-position: -200% 0; }
+  to { background-position: 200% 0; }
+}
+
+@utility animate-shimmer {
+  animation: shimmer 2s linear infinite;
+  background-size: 200% 100%;
+}
