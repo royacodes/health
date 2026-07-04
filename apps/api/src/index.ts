@@ -40,7 +40,7 @@ app.use(
 
 // Routes
 app.route("/health", healthRoutes);
-app.route("/auth", authRoutes);
+app.route("/api/auth", authRoutes);
 
 /* Food & Nutrition Engine */
 app.route("/foods", foodRoutes);
