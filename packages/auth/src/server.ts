@@ -9,10 +9,12 @@ export function createAuth(config: {
   telegram?: { botToken: string };
   baseURL?: string;
   secret: string;
+  trustedOrigins?: string[];
 }) {
   return betterAuth({
     baseURL: config.baseURL || "http://localhost:8787",
     secret: config.secret,
+    trustedOrigins: config.trustedOrigins || [],
     adapter: drizzleAdapter(db, {
       provider: "pg",
       schema: {
